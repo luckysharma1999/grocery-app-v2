@@ -3,11 +3,11 @@ const unitOptions = [
   "kg",
   "g",
   "litre",
-  "ml",
   "pcs",
   "packet",
   "bottle",
   "पीपा",
+  "box",
 ];
 
 const AddItemModal = ({ isOpen, onClose, item, onConfirm }) => {

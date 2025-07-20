@@ -78,7 +78,7 @@ const App = () => {
   if (loading) return <div className="p-4">Loading...</div>;
 
   return (
-    <div className="p-4 max-w-6xl mx-auto font-serif">
+    <div className="p-4 max-w-6xl mx-auto font-serif bg-zinc-100 shadow-lg rounded-lg pb-18">
       <h1 className="text-3xl font-bold mb-4">Grocery List</h1>
       <button
         onClick={() => setIsFinalListOpen(true)}
